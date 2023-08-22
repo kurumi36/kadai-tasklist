@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2023_08_19_073708) do
     t.string "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "title"
+    t.string "status"
   end
 
 end
